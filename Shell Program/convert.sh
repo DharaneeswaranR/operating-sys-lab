@@ -5,4 +5,5 @@ do
     j=`echo $i | tr "[a-z]" "[A-Z]"`
     echo After
     echo $j
+    mv $i $j
 done
